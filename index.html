@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV SHOWS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <form name="search-form" autocomplete="off">
+        <div class="group">
+          <label for="query">Query for tv show</label>
+          <input type="text" name="query" id="query" />
+        </div>
+
+        <div class="group">
+          <button type="submit" name="submit">Search</button>
+        </div>
+      </form>
+      <ul id="show-list"></ul>
+    </div>
+    <div id="show-detail"></div>
+    <div id="episode-list"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
