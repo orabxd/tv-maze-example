@@ -106,3 +106,9 @@ td:first-child {
 .group {
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 750px) {
+  body {
+    flex-direction: column;
+  }
+}
