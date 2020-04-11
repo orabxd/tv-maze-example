@@ -59,6 +59,10 @@ li:hover {
   background-color: #eeeeee;
 }
 
+details details {
+    padding-left: 20px;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
