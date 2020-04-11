@@ -7,7 +7,7 @@ const submitButton = searchForm.elements.submit;
 const query = searchForm.elements.query;
 
 // api
-const baseurl = "http://api.tvmaze.com";
+const baseurl = "https://api.tvmaze.com";
 
 // suscribe to listeners
 searchForm.addEventListener("submit", submitHandler);
