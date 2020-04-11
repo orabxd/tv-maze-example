@@ -168,7 +168,7 @@ function renderEpisodes(episodes) {
   for (const season in seasons) {
     const details = document.createElement("details");
     const summary = document.createElement("summary");
-    const list = document.createElement("ul");
+    const list = document.createElement("div");
 
     summary.textContent = season;
 
@@ -177,11 +177,24 @@ function renderEpisodes(episodes) {
     }
 
     for (const episode of seasons[season]) {
-      const li = document.createElement("li");
+      const detail = document.createElement("details");
+      const li = document.createElement("summary");
+      const image = document.createElement("img");
+      const p = document.createElement("p");
 
       li.textContent = episode.name;
 
-      list.append(li);
+      if (episode.image) {
+        image.src = episode.image.medium;
+        detail.append(image);
+      }
+
+      p.innerHTML = episode.summary;
+
+      detail.append(li);
+      detail.append(p);
+
+      list.append(detail);
     }
 
     details.append(summary);
