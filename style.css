@@ -89,6 +89,17 @@ td:first-child {
   padding-bottom: 10px;
 }
 
+/* CAMBIOS HECHOS POR OSCAR AMAYA */
+#main{
+  
+  background-color: antiquewhite;
+}
+
+.group{
+  background-color: antiquewhite;
+}
+/* CAMBIOS HECHOS POR OSCAR AMAYA */
+
 /* Element | http://127.0.0.1:8080/# */
 
 #show-detail > ul:nth-child(2) > li:nth-child(1) {
@@ -107,6 +118,7 @@ td:first-child {
 .group {
   margin-bottom: 10px;
 }
+
 
 @media only screen and (max-width: 750px) {
   body {
