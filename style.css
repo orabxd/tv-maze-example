@@ -8,7 +8,8 @@ body {
   font-size: 12px;
   height: 100%;
   min-height: 100vh;
-  background-color: tomato;
+  /* EDITADO POR OSCAR AMAYA */
+  background-color: white;
 
   /* flex */
   display: flex;
@@ -92,11 +93,11 @@ td:first-child {
 /* CAMBIOS HECHOS POR OSCAR AMAYA */
 #main{
   
-  background-color: antiquewhite;
+  background-color: tomato;
 }
 
 .group{
-  background-color: antiquewhite;
+  background-color: tomato;
 }
 /* CAMBIOS HECHOS POR OSCAR AMAYA */
 
